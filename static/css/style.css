@@ -1,0 +1,56 @@
+.tiktok-sans {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}
+
+body {
+    font-family: "Tiktok Sans";
+    background-color: #c8d8e4;
+    color: #2b5277;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2rem;
+    width: auto;
+    padding: 1rem 1vh 0 1vh;
+}
+
+.formboxer {
+    margin-top: 5vh;
+}
+
+.formtext {
+    background-color: bisque;
+    font-family: "Tiktok Sans";
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 70vw;
+    max-width: 20rem;
+    height: 5rem;
+}
+
+.formaccent {
+    background-color: bisque;
+    font-family: "Tiktok Sans";
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 70vw;
+    max-width: 10rem;
+    outline: 1rem auto black;
+}
+
+.formsend {
+    background-color: bisque;
+    font-family: "Tiktok Sans";
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 70vw;
+    max-width: 5rem;
+    outline: 1rem auto black;
+}

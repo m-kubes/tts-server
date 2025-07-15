@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker API</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="main-title">
+        <h1>Michael TTS</h1>
+        <p>Put something in here and it will yell it on my pc</p>
+    </div>
+    <div class="formboxer">
+        <form action="", method="post">
+            <p>Accent</p>
+            <select name="accentinput" id="accent" class="formaccent">
+                <option value="American">American</option>
+                <option value="British">British</option>
+                <option value="Indian">Indian</option>
+                <option value="Nigerian">Nigerian</option>
+                <option value="French">French</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Mexican">Mexican</option>
+            </select>
+            <p>Text</p>
+            <input type="text", name="textinput", class="formtext">
+            <br><br>
+            <input type="submit", name="submit", value="Send", class="formsend">
+        </form>
+    </div>
+</html>
