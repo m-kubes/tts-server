@@ -1,0 +1,4 @@
+gtts
+flask
+pygame
+colorama

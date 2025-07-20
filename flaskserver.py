@@ -40,6 +40,8 @@ class audioQueue():
             print(Fore.RED + "Player already playing" + Fore.RESET)
             return
         
+        print(Fore.YELLOW + "Audio player started" + Fore.RESET)
+
         while self.stopQueued == False:
             audioList = os.listdir("audioFiles")
 
@@ -64,7 +66,8 @@ class audioQueue():
             else:
                 self.queue.pop(0)
                 print(Fore.RED + f"Could not find '{file}' in audio dir")
-                    
+        
+        print(Fore.YELLOW + "Audio player stopped" + Fore.RESET)
         self.is_playing = False
         self.stopQueued = False
 
